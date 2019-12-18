@@ -3,18 +3,36 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { PaginaInicialComponent } from './pagina-inicial/pagina-inicial.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {
+  MzButtonModule,
+  MzInputModule,
+  MzNavbarModule,
+  MzDropdownModule,
+  MzSidenavModule,
+  MzIconModule,
+  MzIconMdiModule  } from 'ngx-materialize';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    PaginaInicialComponent
+    PaginaInicialComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MzButtonModule,
+    MzInputModule,
+    MzNavbarModule,
+    MzDropdownModule,
+    MzSidenavModule,
+    MzIconModule,
+    MzIconMdiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
