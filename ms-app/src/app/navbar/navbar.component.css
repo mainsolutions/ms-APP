@@ -1,0 +1,14 @@
+.nav-image {
+  margin-top: -2px;
+  width: 70px;
+  height: 70px;
+}
+.font-logo {
+  font-family: "Archivo Black";
+  letter-spacing: -2px;
+  font-size: 25px;
+  color: #202020;
+}
+.subheader-text{
+  font-family: 'Alata', sans-serif;
+}
