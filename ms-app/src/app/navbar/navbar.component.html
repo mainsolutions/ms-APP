@@ -1,13 +1,13 @@
 <mz-navbar [navbarClass]="'white'">
   <div class="container">
-    <img src="https://source.unsplash.com/50x50" alt="Main Solutions Image">
-    <a href="#" class="brand-logo black-text">Logo</a>
+    <img src="../../assets/logo-lampada.svg" alt="Main Solutions Image" class="hide-on-med-and-down nav-image">
+    <a href="#" class="brand-logo font-logo">MAIN SOLUTIONS</a>
     <mz-navbar-item-container [align]="'right'" class="hide-on-med-and-down">
-      <mz-navbar-item><a href="#" class="black-text">Sass</a></mz-navbar-item>
-      <mz-navbar-item><a href="#" class="black-text">Components</a></mz-navbar-item>
-      <mz-navbar-item><a routerLink="js" class="black-text">JavaScript</a></mz-navbar-item>
+      <mz-navbar-item><a href="#" class="black-text">Serviços</a></mz-navbar-item>
+      <mz-navbar-item><a href="#" class="black-text">Contatos</a></mz-navbar-item>
+
     </mz-navbar-item-container>
-    <button mz-button [float]="true" id="btn-sidenav-demo" class="hide-on-large-only btn-floating black">
+    <button mz-button [float]="true" id="btn-sidenav-demo" class="hide-on-large-only btn-floating grey grey darken-4">
       <i mz-icon [align]="'right'" [icon]="'menu'" [size]="'medium'">
       </i>
     </button>
@@ -18,18 +18,22 @@
 
 <mz-sidenav [id]="'sidenav-demo'" [collapseButtonId]="'btn-sidenav-demo'">
   <mz-sidenav-header>
-    Sidenav header
+    <div class="center font-logo">
+      <h5>MAIN SOLUTIONS</h5>
+    </div>
   </mz-sidenav-header>
-  <mz-sidenav-subheader>Link Subheader</mz-sidenav-subheader>
+
+
+  <mz-sidenav-divider></mz-sidenav-divider>
+
   <mz-sidenav-link>
-    <a href=" #">First Link</a>
+    <a href=" #" class="waves-effect">Serviços</a>
   </mz-sidenav-link>
   <mz-sidenav-divider></mz-sidenav-divider>
-  <mz-sidenav-link [active]="true">
-    <a href="#">Active Link</a>
+  <mz-sidenav-link [active]="false">
+    <a href="#" class="waves-effect">Contatos</a>
   </mz-sidenav-link>
   <mz-sidenav-divider></mz-sidenav-divider>
-  <mz-sidenav-link>
-    <a href="#" class="waves-effect">Second Link With Waves</a>
-  </mz-sidenav-link>
+
+
 </mz-sidenav>

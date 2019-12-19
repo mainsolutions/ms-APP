@@ -14,13 +14,15 @@ import {
   MzSidenavModule,
   MzIconModule,
   MzIconMdiModule  } from 'ngx-materialize';
+import { BodyPageComponent } from './body-page/body-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PaginaInicialComponent,
-    NavbarComponent
+    NavbarComponent,
+    BodyPageComponent
   ],
   imports: [
     BrowserModule,
