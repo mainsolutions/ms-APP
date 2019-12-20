@@ -1,12 +1,12 @@
 .nav-image {
-  margin-top: -2px;
-  width: 70px;
-  height: 70px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
 }
 .font-logo {
   font-family: "Archivo Black";
   letter-spacing: -2px;
-  font-size: 25px;
+  font-size: 18px;
   color: #202020;
 }
 .subheader-text{

@@ -13,7 +13,8 @@ import {
   MzDropdownModule,
   MzSidenavModule,
   MzIconModule,
-  MzIconMdiModule  } from 'ngx-materialize';
+  MzIconMdiModule,
+  MzTextareaModule  } from 'ngx-materialize';
 import { BodyPageComponent } from './body-page/body-page.component';
 
 
@@ -34,7 +35,8 @@ import { BodyPageComponent } from './body-page/body-page.component';
     MzDropdownModule,
     MzSidenavModule,
     MzIconModule,
-    MzIconMdiModule
+    MzIconMdiModule,
+    MzTextareaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
