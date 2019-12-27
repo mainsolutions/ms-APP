@@ -65,7 +65,31 @@ background-color: rgba(238, 253, 105, 0.938)!important;;
 
 button{
   border-radius: 20px 20px 20px 20px;
+  background-color:#FFB72F;
+  color:#262626;
 }
+button:hover{
+  background-color:rgb(233, 201, 142);
+}
+
 h4{
   color:#FFB72F;
+}
+hr{
+  width: 30%;
+  margin-top: 5em;
+}
+
+.social-icons{
+  margin: 5em!important;
+}
+.footer-copyright{
+display: flex;
+flex-direction: row;
+height: 40px;
+background-color:#707070;
+}
+.h6-foot{
+  margin-top: 9px;
+  color: rgb(255, 200, 98);
 }
