@@ -67,6 +67,7 @@ button{
   border-radius: 20px 20px 20px 20px;
   background-color:#FFB72F;
   color:#262626;
+  width: 150px;
 }
 button:hover{
   background-color:rgb(233, 201, 142);
@@ -77,19 +78,21 @@ h4{
 }
 hr{
   width: 30%;
-  margin-top: 5em;
+  margin-top: 5em!important;
 }
 
 .social-icons{
   margin: 5em!important;
+  display: flex;
+  flex-direction: row;
 }
 .footer-copyright{
 display: flex;
 flex-direction: row;
 height: 40px;
-background-color:#707070;
+background-color:#424242;
 }
 .h6-foot{
   margin-top: 9px;
-  color: rgb(255, 200, 98);
+  color: #FFB72F;
 }
