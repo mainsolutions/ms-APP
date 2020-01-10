@@ -1,5 +1,6 @@
+
 .idea-image{
-  margin-top: 10%;
+  margin-top: 20%;
   height:400px ;
   width: auto;
 }
@@ -25,19 +26,16 @@ strong{
   margin-bottom: 3%;
 }
 
-.glow:hover {
-  text-shadow: 0px 0px 60px rgba(235, 255, 52, 0.938);
-  cursor: default;
 
-}
 p{
   color: #efefef;
   padding: 10%;
   cursor: default;
 }
-.test:hover{
+.glow:hover{
   color: rgba(235, 255, 52, 0.938)!important;
   cursor: default;
+  text-shadow: 0px 0px 60px rgba(235, 255, 52, 0.938);
 }
 .display-section{
 background-color: rgba(238, 253, 105, 0.938)!important;;
@@ -45,12 +43,56 @@ background-color: rgba(238, 253, 105, 0.938)!important;;
 
 .text-message-display{
   margin-top: 18%;
-  text-align: left;
+  text-align: center;
 }
 .img-display{
+  margin-top: 5%;
   height: 600px;
   width: auto;
 }
 .down-icon{
   animation-duration: 2s;
+}
+.ms-img{
+
+  width: 100%;
+  height: auto;
+
+}
+.contact-section{
+  background-color: #111;
+}
+
+button{
+  border-radius: 20px 20px 20px 20px;
+  background-color:#FFB72F;
+  color:#262626;
+  width: 150px;
+}
+button:hover{
+  background-color:rgb(233, 201, 142);
+}
+
+h4{
+  color:#FFB72F;
+}
+hr{
+  width: 30%;
+  margin-top: 5em!important;
+}
+
+.social-icons{
+  margin: 5em!important;
+  display: flex;
+  flex-direction: row;
+}
+.footer-copyright{
+display: flex;
+flex-direction: row;
+height: 50px;
+background-color:#222222;
+}
+.h6-foot{
+  margin-top: 11px;
+  color: #FFB72F;
 }
